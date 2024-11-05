@@ -1,6 +1,7 @@
 /* Common styles */
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Common nav styles */
@@ -15,15 +16,44 @@ body {
     padding: 60px 100px;
 }
 
-h1 {
-    color: red
+.left-column {
+    display: flex;
+    align-items: center;
 }
 
-.contact-hours-wrapper {
-    color: royalblue;
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+
+h1 {
+}
+
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.contact-hours-wrapper > .hours {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: white;
 }
 
 .address-wrapper {
-    color: red;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.banner-image img {
+    width: 216px;
+    height: 100%;
 }
 
