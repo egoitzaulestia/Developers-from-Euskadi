@@ -16,24 +16,20 @@ body {
     padding: 60px 100px;
 }
 
-.left-column {
+.navigation-wrapper > .left-column {
     display: flex;
     align-items: center;
 }
 
-.icon {
+.navigation-wrapper > .left-column > .icon {
     margin-right: 15px;
 }
 
-.icon i {
+.navigation-wrapper > .left-column > .icon i {
     font-size: 2em;
 }
 
-
-h1 {
-}
-
-.left-column > .contact-hours-wrapper {
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -43,16 +39,16 @@ h1 {
     font-family: "Ubuntu Condensed", sans-serif;
 }
 
-.nav-link a {
+.links-wrapper > .nav-link a {
     font-family: "Ubuntu Condensed", sans-serif;
     color: white;
 }
 
-.address-wrapper {
+.navigation-wrapper > .right-column > .address-wrapper {
     font-family: "Ubuntu Condensed", sans-serif;
 }
 
-.banner-image img {
+.navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
 }
