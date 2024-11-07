@@ -68,4 +68,17 @@ body {
 .links-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
 }
